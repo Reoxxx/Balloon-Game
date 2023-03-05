@@ -48,7 +48,7 @@ public class LeylekSurusu : MonoBehaviour
         for(int i = 0; i < adet; i++)
         {
             float x = Random.Range((float)(sol.transform.position.x - 10), (float)(sol.transform.position.x + 10));
-            float y = Random.Range((float)(sol.transform.position.y - 10), (float)(sol.transform.position.y + 10));
+            float y = Random.Range((float)(sol.transform.position.y - 20), (float)(sol.transform.position.y + 20));
             float z = Random.Range((float)(sol.transform.position.z - 20), (float)(sol.transform.position.z + 200));
             Vector3 position = new Vector3(x, y, z);
             Quaternion rotation = Quaternion.Euler(0, 45, 0);
@@ -62,7 +62,7 @@ public class LeylekSurusu : MonoBehaviour
         for (int i = 0; i < adet; i++)
         {
             float x = Random.Range((float)(sag.transform.position.x - 10), (float)(sag.transform.position.x + 10));
-            float y = Random.Range((float)(sag.transform.position.y - 10), (float)(sag.transform.position.y + 10));
+            float y = Random.Range((float)(sag.transform.position.y - 20), (float)(sag.transform.position.y + 20));
             float z = Random.Range((float)(sag.transform.position.z - 20), (float)(sag.transform.position.z + 20));
             Vector3 position = new Vector3(x, y, z);
             Quaternion rotation = Quaternion.Euler(0, -45, 0);
